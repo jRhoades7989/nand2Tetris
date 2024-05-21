@@ -12,5 +12,5 @@ All .asm files can be compiled to .hack files using Assembler.sh in the "tools" 
 source Assembler.sh <PathTo>/mywork/<ModuleName>/YourFile.asm
 ```
 This will produce a .hack file in the same folder as the .asm file which can then be loaded and run by running the CPUEmulator from the tools. That opens into a nice GUI depicting the inner workings of the ram.
-## Comp.asm
+#### Comp.asm
 The original assignment is to do some multiplication. The project using similar principles that I put together for my personal interpretation does a simple subtraction based division that will take the dividend in R0, the divisor in R1 and will store the quotient in R2 and the remainder in R3.
